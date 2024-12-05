@@ -1,0 +1,44 @@
+/* Auth.module.css */
+.authContainer {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.authForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.authInput {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.authButton {
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.authButton:hover {
+    background-color: #f0a500;
+}
+
+.error {
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}

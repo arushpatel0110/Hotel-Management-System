@@ -1,0 +1,93 @@
+/* Home.module.css */
+
+.home {
+    padding: 2rem;
+}
+
+.carousel {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.carouselImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.carouselImage:hover {
+    transform: scale(1.05);
+}
+
+.videoContainer {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.video {
+    width: 80%;
+    height: 450px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+.roomsSection {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.roomCards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.roomCard {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.roomCard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.roomImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .carouselImage {
+        height: 300px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .roomCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .roomCard {
+        width: 90%;
+    }
+}
